@@ -95,3 +95,9 @@ And here is how you might call the endpoint using a simple CURL Command:
 ````
 curl -X GET -H "Authorization: Bearer {{JWT ACCESS TOKEN}}" -H "Content-Type: application/json" -H "Cache-Control: no-cache" "http://localhost:8080/secure/greeting"
 ````
+
+## Setting Scope In Resource API 
+
+Here is a screenshot on how this might look in the Auth0 Dashboard
+
+![](img/scope.jpg)
